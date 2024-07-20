@@ -16,6 +16,7 @@ export const options = {
   export const SUPPORTED_LANGUAGE= [
     {idendtifier: "en", name:"English"},
     {idendtifier: "hi", name:"Hind"},
+    {idendtifier: "ru", name:"russian"},
     {idendtifier: "spanish", name:"Spanish"},
   ]
 
