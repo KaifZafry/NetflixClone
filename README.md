@@ -8,14 +8,15 @@
 - signUp form
 - Form validation
 - useRef Hook
+
 -Firebase setup
-- Deploying our app to production
-- Create sign up user account
-- Implement signin user
-- created redux store with userslice
-- Bugfix - if user is not logged in then redirect to login page
-- Unsubscribe to the onAuthstatechange callback
-- add hardcoded string in to constant files
+ - Deploying our app to production
+ - Create sign up user account
+ - Implement signin user
+ - created redux store with userslice
+ - Bugfix - if user is not logged in then redirect to login page
+ - Unsubscribe to the onAuthstatechange callback
+ - add hardcoded string in to constant files
 - fetch the  movies  from tmdb api for now playing
 - use the key of the movie trailer and use in the youtube embedd iframe show the
   trailer of the movie at the top 
@@ -36,5 +37,6 @@
 
 - login/ SignUp
  - signIn and signUp form
- - go to the browse page
+ - go to the browse page- if user is not logged in 
+
 
