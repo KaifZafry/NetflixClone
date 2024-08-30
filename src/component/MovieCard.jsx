@@ -7,9 +7,9 @@ const MovieCard = ({id,posterPath}) => {
   const getMovieVideos= async()=>{
     const data= await fetch("https://api.themoviedb.org/3/movie/"+id+"/videos?language=en-US", options);
     const json=await data.json();
-    const filterData=json?.results.filter(video=>video.type==="Trailer")
+    const filterData=json?.results.filter(video=>video.type==="Trailer");
     const trailer=filterData[0];
-    setTrailerId(trailer?.key)
+    setTrailerId(trailer?.key);
     
 }
 
