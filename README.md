@@ -37,6 +37,6 @@
 
 - login/ SignUp
  - signIn and signUp form
- - go to the browse page- if user is not logged in 
+ - go to the browse  page- if user is not logged in 
 
 
